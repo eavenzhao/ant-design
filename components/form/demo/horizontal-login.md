@@ -16,7 +16,7 @@ Horizontal login form is often used in navigation bar.
 ````jsx
 import { Form, Icon, Input, Button } from 'antd';
 
-const FormItem = Form.Item;
+ 
 
 function hasErrors(fieldsError) {
   return Object.keys(fieldsError).some(field => fieldsError[field]);
